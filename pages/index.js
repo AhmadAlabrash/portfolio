@@ -98,7 +98,7 @@ ongoing revolution in this innovative field.
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Make it a
                 reality.
               </p>
   
@@ -118,7 +118,7 @@ ongoing revolution in this innovative field.
           <div>
             <h2 className="text-3xl py-1 bold dark:text-white " >Projects</h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            I possess a proven track record of delivering high-quality software solutions, backed by a portfolio of successfully completed projects. My commitment to excellence ensures that every endeavor I undertake is not just successful but stands tall as a testament to my expertise and dedication to your project's success.
+            I possess a proven track record of delivering high-quality software solutions, backed by a portfolio of successfully completed projects. My commitment to excellence ensures that every endeavor I undertake is not just successful but stands tall as a testament to my expertise and dedication to your projects success.
 </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
