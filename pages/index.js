@@ -45,7 +45,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1TE--nefWAfMFigQNJL1UUjAsyLY_VShy/view?usp=sharing" target="_blank"
+                  href="https://drive.google.com/file/d/1TE--nefWAfMFigQNJL1UUjAsyLY_VShy/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                 >
                   CV
                 </a>
@@ -133,7 +133,7 @@ ongoing revolution in this innovative field.
               <p class="mb-4 text-base text-neutral-600 dark:text-black">
               Your Secure Crypto Hub: Manage and Protect Your Digital Assets with Ease
      </p>
-     <a target="_blank" href="https://sevowallet.vercel.app/">
+     <a target="_blank" href="https://sevowallet.vercel.app/" rel="noopener noreferrer">
      <button
       type="button"
       class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-900 dark:text-white"
@@ -157,7 +157,7 @@ ongoing revolution in this innovative field.
               Seamless Trading on the Blockchain: Explore Our Decentralized Exchange
          
               </p>
-              <a target="_blank" href="https://sevodex.vercel.app/">
+              <a target="_blank" href="https://sevodex.vercel.app/" rel="noopener noreferrer">
     <button
       type="button"
       class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-900 dark:text-white"
@@ -180,7 +180,7 @@ ongoing revolution in this innovative field.
               <p class="mb-4 text-base text-neutral-600 dark:text-black ">
               Unlock Creativity with AI NFT Generator: Transform Art into Digital Masterpieces
      </p>
-     <a target='_blank' href="https://sevonft.vercel.app">
+     <a target='_blank' href="https://sevonft.vercel.app" rel="noopener noreferrer">
      <button
       type="button"
       class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-900 dark:text-white"
