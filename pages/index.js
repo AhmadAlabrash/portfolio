@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import deved from "../public/dev-ed-wave.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -15,9 +15,11 @@ import Image from "next/image";
 import im1 from "../public/1.png";
 import im2 from "../public/2.png";
 import im3 from "../public/3.png";
+import im4 from "../public/4.png";
 
 
 export default function Home() {
+
   const [darkMode, setDarkMode] = useState(true);
 
   return (
@@ -45,7 +47,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1TE--nefWAfMFigQNJL1UUjAsyLY_VShy/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1m5mDePt1HjdEX4NkItVQE523Qg-aQ2Cg/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                 >
                   CV
                 </a>
@@ -67,7 +69,7 @@ ongoing revolution in this innovative field.
             </p>
             </div>
 
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-200 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" alt="portfolio main image" />
             </div>
           </div>
@@ -122,7 +124,7 @@ ongoing revolution in this innovative field.
 </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div class=" w-1/3 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
+            <div class=" w-1/4 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
               <Image
                class="rounded-t-lg"
                 src={im3}
@@ -142,9 +144,35 @@ ongoing revolution in this innovative field.
       Visit The App
     </button>
     </a>
+    <div style={{marginTop :'10px'}}></div>
+
+<a 
+  target='_blank' href="https://github.com/AhmadAlabrash/sevo_wallet_frontend" rel="noopener noreferrer">
+ <button
+  
+  type="button"
+  class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-700 dark:text-white"
+  data-te-ripple-init
+  data-te-ripple-color="light">
+  Visit Repo
+  
+</button>
+</a>
+<a style={{marginLeft : '5px'}}
+  target='_blank' href="https://github.com/AhmadAlabrash/sevo_wallet_backend" rel="noopener noreferrer">
+ <button
+  
+  type="button"
+  class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-700 dark:text-white"
+  data-te-ripple-init
+  data-te-ripple-color="light">
+  II Repo
+  
+</button>
+</a>
   </div>
             </div>
-            <div class="w-1/3 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
+            <div class="w-1/4 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
              
               <Image
                class="rounded-t-lg"
@@ -157,7 +185,7 @@ ongoing revolution in this innovative field.
               Seamless Trading on the Blockchain: Explore Our Decentralized Exchange
          
               </p>
-              <a target="_blank" href="https://sevodex.vercel.app/" rel="noopener noreferrer">
+              <a target="_blank" href="https://sevofi.vercel.app/" rel="noopener noreferrer">
     <button
       type="button"
       class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-900 dark:text-white"
@@ -166,9 +194,34 @@ ongoing revolution in this innovative field.
       Visit The App
     </button>
     </a>
+    <div style={{marginTop :'10px'}}></div>
+
+<a  target='_blank' href="https://github.com/AhmadAlabrash/sevo_fi" rel="noopener noreferrer">
+ <button
+  type="button"
+  class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-700 dark:text-white"
+  data-te-ripple-init
+  data-te-ripple-color="light">
+  Visit Repo
+</button>
+</a>
+<a style={{marginLeft : '5px'}}
+  target='_blank' href="https://github.com/AhmadAlabrash/sevo_dex_backend" rel="noopener noreferrer">
+ <button
+  
+  type="button"
+  class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-700 dark:text-white"
+  data-te-ripple-init
+  data-te-ripple-color="light">
+  II Repo
+  
+</button>
+</a>
+
+
   </div>
             </div>
-            <div class="w-1/3 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
+            <div class="w-1/4 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
               
               <Image
                class="rounded-t-lg"
@@ -187,6 +240,51 @@ ongoing revolution in this innovative field.
       data-te-ripple-init
       data-te-ripple-color="light">
       Visit The App
+    </button>
+    </a>
+    <div style={{marginTop :'10px'}}></div>
+
+<a  target='_blank' href="https://github.com/AhmadAlabrash/sevo_ai_nft" rel="noopener noreferrer">
+ <button
+  type="button"
+  class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-700 dark:text-white"
+  data-te-ripple-init
+  data-te-ripple-color="light">
+  Visit Repo
+</button>
+</a>
+  </div>
+            </div>
+                        <div class="w-1/4 flex-1 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-white ">
+              
+              <Image
+               class="rounded-t-lg"
+                src={im4}
+                alt="info image" />
+             
+         <div class="p-6">
+            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-black ">Sevo Bridge</h5>
+              <p class="mb-4 text-base text-neutral-600 dark:text-black ">
+              Seamlessly Bridge Across Chains: Unlock New Possibilities in DeFi
+     </p>
+     <a target='_blank' href="https://sevo-bridge.vercel.app" rel="noopener noreferrer">
+     <button
+      type="button"
+      class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-900 dark:text-white"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      Visit The App
+    </button>
+    </a>
+    <div style={{marginTop :'10px'}}></div>
+
+    <a  target='_blank' href="https://github.com/AhmadAlabrash/sevo_bridge" rel="noopener noreferrer">
+     <button
+      type="button"
+      class="inline-block rounded bg-gray-900 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:bg-gray-700 dark:text-white"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      Visit Repo
     </button>
     </a>
   </div>
