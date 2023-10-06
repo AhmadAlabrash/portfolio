@@ -32,7 +32,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40" style={{ fontFamily: 'cursive' }}>
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Ahmad Alabrash</h1>
+            <h1 className="font-burtons text-xl">Ahmed Diab</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -57,7 +57,7 @@ export default function Home() {
           <div style={{ display: 'flex', width: '100%', height: '100vh' }}>
             <div>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Ahmad Alabrash
+              Ahmed Diab
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Software Developer 
