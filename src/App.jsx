@@ -11,12 +11,14 @@ function App() {
 
   return (
     <>
+    <Nav />
     <Home />
     <About />
-    <Nav />
+    <Skills />
+    
     <Projects />
     <Services />
-    <Skills />
+    
     <Contact />
     <Footer />
       
