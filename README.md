@@ -60,7 +60,7 @@ npm run dev
 
 ## 🌍 Live Demo
 
-👉 https://ahmad-alabrash.com
+👉 https://portfolio.bytasker.com
 
 ---
 
@@ -99,7 +99,7 @@ Contributions, suggestions, and feedback are always welcome!
 
 Feel free to reach out:
 
-* Email: [contact@ahmad-alabrash.com](mailto:ahmadba970@gmail.com)
+* Email: [contact@bytasker.com](mailto:contact@bytasker.com)
 * LinkedIn: https://linkedin.com/in/ahmadalabrash
 * GitHub: https://github.com/ahmadalabrash
 
