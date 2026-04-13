@@ -45,8 +45,7 @@ function Services() {
     <FaCode className='icon' />
     <h3>Clean & Maintainable Code</h3>
     <p className='text-light'>
-      I focus on writing efficient, scalable, and well-documented code that is easy to maintain and extend for future growth.
-    </p>
+I write efficient, scalable, and well-organized code with a strong emphasis on readability and maintainability. By following best practices and documenting clearly.    </p>
   </article>
 
 </div>

@@ -12,22 +12,22 @@ const ContactData = [
     id:1,
     icon: <MdOutlineEmail />,
     title:"Email",
-    info: "ahmadba970@gmail.com",
-    link: "mailto:ahmadba970@gmail.com",
+    info: "contact@bytasker.com",
+    link: "mailto:contact@bytasker.com",
   },
   {
     id:1,
     icon: <RiMessengerLine />,
     title: "Message",
     info: "Ahmad Alabrash",
-    link: "sms:+4917685347282?body=Hi, I saw your portfolio and would like to connect!",
+    link: "sms:+4917662410040?body=Hi, I saw your portfolio and would like to connect!",
   },
   {
     id:1,
     icon: <BsWhatsapp />,
     title:"WhatsApp",
-    info: "017685347282",
-    link: "https://api.whatsapp.com/send?phone=017685347282",
+    info: "017662410040",
+    link: "https://api.whatsapp.com/send?phone=017662410040",
   }
 ]
 function Contact() {
