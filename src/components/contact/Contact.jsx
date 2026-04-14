@@ -1,73 +1,89 @@
-import React from 'react'
-import "./contact.css"
-import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
-
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import "./contact.css";
+import { MdOutlineEmail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
 
 const ContactData = [
   {
-    id:1,
+    id: 1,
     icon: <MdOutlineEmail />,
-    title:"Email",
+    title: "Email",
     info: "contact@bytasker.com",
     link: "mailto:contact@bytasker.com",
   },
   {
-    id:1,
+    id: 2,
     icon: <RiMessengerLine />,
     title: "Message",
     info: "Ahmad Alabrash",
     link: "sms:+4917662410040?body=Hi, I saw your portfolio and would like to connect!",
   },
   {
-    id:1,
+    id: 3,
     icon: <BsWhatsapp />,
-    title:"WhatsApp",
-    info: "017662410040",
-    link: "https://api.whatsapp.com/send?phone=017662410040",
+    title: "WhatsApp",
+    info: "+49 176 62410040",
+    link: "https://wa.me/4917662410040",
   }
-]
-function Contact() {
+];
 
-  const form = useRef()
+function Contact() {
+  const form = useRef(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_zuqzdjn', 'template_ly75qmn', form.current, 'X_yFDfigN9B7viCjp',)
-    e.target.reset()
+    const formData = new FormData(form.current);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const message = formData.get("message");
+
+    const subject = encodeURIComponent(`Portfolio contact from ${name}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    );
+
+    window.location.href = `mailto:contact@bytasker.com?subject=${subject}&body=${body}`;
+
+    e.target.reset();
   };
 
-
   return (
-    <section id='contact'>
-      <h5>Get In Touch</h5>
+    <section id="contact">
+      <h5>Get In Touch </h5>
       <h2>Contact Me</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
-        {ContactData.map(({ id, icon, title, info, link }) => (
-          <article key={id} className="contact_option">
-                {icon}
-                <h4>{title}</h4>
-                <h5>{info}</h5>
-                <a href={link} target='_blank'>Send Message</a>
-          </article>
-                ))}
+          {ContactData.map(({ id, icon, title, info, link }) => (
+            <article key={id} className="contact_option">
+              {icon}
+              <h4>{title}</h4>
+              <h5>{info}</h5>
+              <a href={link} rel="noreferrer">
+                Send Message
+              </a>
+            </article>
+          ))}
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name='name' placeholder='Your Full Name' required/>
-        <input type="email" name='email' placeholder='Your Email' required/>
-        <textarea placeholder='Your Message' name="message" rows={10}></textarea>
-        <button className='btn btn-primary'>Send Message</button>
+          <input type="text" name="name" placeholder="Your Full Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows={10}
+            required
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
