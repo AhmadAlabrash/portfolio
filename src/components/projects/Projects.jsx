@@ -73,7 +73,7 @@ const portfolioData = [
   image: IMG6,
   title: 'Invoice Generator Web App',
   github: 'https://github.com/AhmadAlabrash/invoice-generator',
-  demo: 'https://invoice-generator.bytasker.com'
+  demo: 'https://invoicepro.codinga.xyz'
 },
 {
   id: 8,
@@ -89,7 +89,7 @@ const portfolioData = [
   image: 'https://raw.githubusercontent.com/AhmadAlabrash/alpha-blog/refs/heads/main/docs/homepage-image.png',
   title: 'Alpha Blog Application',
   github: 'https://github.com/AhmadAlabrash/alpha-blog',
-  demo: 'https://alpha-blog.bytasker.com'
+  demo: 'https://alphablog.codinga.xyz'
 },
 {
   id: 10,
